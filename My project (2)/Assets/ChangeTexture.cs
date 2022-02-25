@@ -18,7 +18,7 @@ public class ChangeTexture : MonoBehaviour
 
     public void ButtonClick()
     {
-        Debug.Log("CLICKED BITCHES");
+
         if (gameObject.GetComponent<Renderer>().material.mainTexture == null)
         {
             gameObject.GetComponent<Renderer>().material.mainTexture = textures[0];
